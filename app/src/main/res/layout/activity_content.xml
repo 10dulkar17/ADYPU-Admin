@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Content"
+    android:background="@color/white">
+
+    <com.github.chrisbanes.photoview.PhotoView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageLoaded"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/locationname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+
+    <TextView
+        android:id="@+id/locationname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="50dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/imageLoaded"
+        app:layout_constraintTop_toBottomOf="@+id/imageLoaded" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/description"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="230dp"-->
+<!--        android:text="Here there will be the description about the advertisement also wtih the shop Details and contact no:7020966206"-->
+<!--        android:textColor="#2196F3"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/locationname"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/locationname" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

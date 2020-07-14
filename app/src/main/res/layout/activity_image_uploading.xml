@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#FFFFFF"
+    tools:context=".ImageUploading">
+
+
+
+
+
+    <Button
+        android:id="@+id/choose_file"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:text="Choose Image"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/new_folder"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+
+<!--        android:hint="Enter New Folder Name"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/colorPrimaryDark"-->
+<!--        android:textColorHint="#868686"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/choose_file"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/location"/>-->
+
+    <EditText
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:hint="Enter FileName"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#868686"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/choose_file"
+        app:layout_constraintBottom_toTopOf="@id/preView"/>
+
+
+    <ImageView
+        android:id="@+id/preView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/show_uploads"
+        app:layout_constraintTop_toBottomOf="@+id/location"
+        app:srcCompat="@color/white" />
+
+
+    <Button
+        android:id="@+id/show_uploads"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+
+        android:text="Uploads"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/preView"/>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="Upload"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="#2196F3"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/show_uploads"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

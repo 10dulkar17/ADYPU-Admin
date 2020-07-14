@@ -1,0 +1,2 @@
+rootProject.name='ADYPU User'
+include ':app'

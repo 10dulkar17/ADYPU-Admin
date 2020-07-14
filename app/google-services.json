@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "1074761068506",
+    "firebase_url": "https://adypu-noticeboard.firebaseio.com",
+    "project_id": "adypu-noticeboard",
+    "storage_bucket": "adypu-noticeboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074761068506:android:d323ef1c1a8ed75abe5ae3",
+        "android_client_info": {
+          "package_name": "com.shubham.adypunoticeboarduser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074761068506-de7594f1el938f2pp4s1qkq0r3o572ih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.adypunoticeboarduser",
+            "certificate_hash": "b1fa100ffdf6b0774f15bf61881518ef8a12afe5"
+          }
+        },
+        {
+          "client_id": "1074761068506-601a56f31rp921n5j953u30hsummhqct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKUQpmMI5LsvwtvMSTHSUgkfi7JDn_Xq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074761068506-601a56f31rp921n5j953u30hsummhqct.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1074761068506-4k3ndtkcli8nn50aggjqhe5a5rpslrh9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Shubham.Tendulkar.ADYPU--NoticeBoard"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074761068506:android:8bddc27847db1a8abe5ae3",
+        "android_client_info": {
+          "package_name": "com.shubham.adypuuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074761068506-t32lvteb40ruqabbieunuuf7u9rvfbmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.adypuuser",
+            "certificate_hash": "b1fa100ffdf6b0774f15bf61881518ef8a12afe5"
+          }
+        },
+        {
+          "client_id": "1074761068506-601a56f31rp921n5j953u30hsummhqct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKUQpmMI5LsvwtvMSTHSUgkfi7JDn_Xq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074761068506-601a56f31rp921n5j953u30hsummhqct.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1074761068506-4k3ndtkcli8nn50aggjqhe5a5rpslrh9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Shubham.Tendulkar.ADYPU--NoticeBoard"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
